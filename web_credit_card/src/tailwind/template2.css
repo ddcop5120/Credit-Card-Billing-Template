@@ -1,0 +1,49 @@
+/* 這裡的class名稱是共用的，故建議加前綴字以區別，例如「t1_」(代表template 1) 
+若css樣式有衝突，將以此檔案的順序為主，越下面的會覆蓋上面的。*/
+.t2_your_class { 
+    @apply text-sm;
+    color: green;
+}
+
+.t2_table-td {
+    @apply border-transparent border-t-0 border-l-0 border-r-0 border-b-0 font-normal text-sm text-black;
+  }
+
+.t2_table-title {
+    @apply border-transparent border-t-0 border-l-0 border-r-0 border-b-0 font-normal text-sm;
+}
+
+.t2_table-wh {
+    @apply rounded-3xl border border-white bg-white
+  }
+
+.t2_text-title {
+    @apply text-xl font-bold mb-2
+}
+
+.t2_text-belstarFontBlue {
+    color: #034EBD;
+}
+
+.t2_text-belstarGray{
+    color:#828282
+}
+
+.t2_bg-tableBlue{
+    background-color:#ECF1FF
+}
+
+.t2_bg-belstarFigureBlue{
+    background-color:#3A6DF2
+}
+
+.t2_w-960px{
+    width: 960px;
+  }
+.t2_w-480px{
+    width: 480px;
+  }
+
+.t2_ml-112{
+    margin-left: 28rem;
+}

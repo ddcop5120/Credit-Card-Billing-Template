@@ -1,0 +1,50 @@
+{
+   "pageData": {
+      "year": 110,
+      "month": 5,
+      "shouldPay": 10166,
+      "dueDate": "109/06/27",
+      "lastAmount": 300,
+      "thisAddOrRemove": 234,
+      "thisGive": 423,
+      "thisBonus": 200,
+      "thisTotal": 757
+   },
+   "news": [
+      {
+         "title": "【聯邦賴點卡繳綜所稅 加碼回饋0.2％ 早鳥再加100元】",
+         "content": "聯邦卡持卡人於2021年5月1日至6月2日期間，使用「聯邦賴點卡」繳納綜所稅1次付清且完成登錄，並於6月新增一般消費滿3000元，就可獲得0.2%刷卡金回饋，最高回饋500元。"
+      },
+      {
+         "title": "【刷卡樂分期／帳單分期」優惠利率通知】",
+         "content": "110/4/1～6/30您的專屬分期利率每期0.8%（年利率9.6%等同總費用年百分率）單筆或帳單新增消費滿NT$3,000，享3、6、12、18、24期分期還款，登入網銀申辦或來電申辦專線(02)2383-1000。"
+      },
+      {
+         "title": "【循環信用優惠利率通知】",
+         "content": "感謝您的支持與愛護，即日起～110/06結帳日止，提供您專屬優惠循環利率（詳見循環年利率欄位），方便您資金規劃與運用。若您有繳款延遲或其他違反信用卡約定條款之情形，本行得依約調整您的循環利率。"
+      }
+   ],
+   "billInfo":{
+      "dueDate":"109/05/27",
+      "currencyType":"新台幣TWD",
+      "lastBillTotal":"2000",
+      "paymentAmount":"2000",
+      "ThisSessionAmount":"10166",
+      "loan":"0",
+      "profit":"0",
+      "shouldPayRightNow":"10166"
+   },
+   "consumptionDetail":[
+      { "name": "上期帳單總額", "transDate":"", "inDate":"", "amount":2000},
+      { "name": "統一行動條碼繳款", "transDate":"05/07", "inDate":"05/08", "amount":-2800},
+      { "name": "繳款小記", "transDate":"", "inDate":"", "amount":2000},
+      { "name": "東南旅行社", "transDate":"5/22", "inDate":"5/23", "amount":6800},
+      { "name": "Mahalo加州廚房", "transDate":"5/22", "inDate":"5/23", "amount":1178},
+      { "name": "好市多高雄店", "transDate":"5/22", "inDate":"5/23", "amount":1178},
+      { "name": "全國加油站九如站", "transDate":"5/22", "inDate":"5/23", "amount":1178},
+      { "name": "WorldGym", "transDate":"5/22", "inDate":"5/23", "amount":1178},
+      { "name": "全國加油站九如站", "transDate":"5/22", "inDate":"5/23", "amount":1178},
+      { "name": "本期消費總額", "transDate":"", "inDate":"", "amount":10166}
+   ]
+
+}

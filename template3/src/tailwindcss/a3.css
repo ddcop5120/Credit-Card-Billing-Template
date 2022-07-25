@@ -1,0 +1,16 @@
+/* @layer utilities { */
+    .bs-text-gray{
+       color: #BEBEBE;
+    }
+    .bs-divide-gray > * + *{
+       border-color: #D8D8D8;
+    }
+    .min-w-68{
+       min-width: 17rem;
+    }
+    .max-w-96{
+       max-width: 24rem;
+    }
+ 
+ /* } */
+ 

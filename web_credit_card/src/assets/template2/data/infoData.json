@@ -1,0 +1,272 @@
+{
+  "creditsCardInfo": [
+    {
+      "title": "帳務結帳日",
+      "content": "109/05/27",
+      "amount": false
+    },
+    {
+      "title": "繳款截止日",
+      "content": "109/06/15",
+      "amount": true
+    },
+    {
+      "title": "已繳款金額",
+      "content": "2,000",
+      "amount": false
+    },
+    {
+      "title": "上期應繳金額",
+      "content": "2,000",
+      "amount": false
+    },
+    {
+      "title": "前期餘額",
+      "content": "0",
+      "amount": false
+    },
+    {
+      "title": "本期應繳金額",
+      "content": "10,166",
+      "amount": false
+    },
+    {
+      "title": "本期應繳總金額",
+      "content": "10,166",
+      "amount": true
+    }
+  ],
+  "credits": [
+    {
+      "title": "信用額度",
+      "content": "130,000"
+    },
+    {
+      "title": "國內預借現金額度",
+      "content": "80,000"
+    },
+    {
+      "title": "國外預借現金額度",
+      "content": "50,000"
+    },
+    {
+      "title": "循環信用利率",
+      "content": "1.5%"
+    }
+  ],
+  "feedback": [
+    {
+      "title": "上期累積",
+      "content": "300",
+      "titleColor": "#828282",
+      "contentColor": "#000000"
+    },
+    {
+      "title": "本期新增/扣除",
+      "content": "234",
+      "titleColor": "#828282",
+      "contentColor": "#34B450"
+    },
+    {
+      "title": "本期贈送",
+      "content": "423",
+      "titleColor": "#828282",
+      "contentColor": "#34B450"
+    },
+    {
+      "title": "本期使用紅利",
+      "content": "200",
+      "titleColor": "#828282",
+      "contentColor": "#F23434"
+    },
+    {
+      "title": "本期結額",
+      "content": "757",
+      "titleColor": "#828282",
+      "contentColor": "#3D6CE6"
+    }
+  ],
+  "newsInfo": [
+    {
+      "title": "【聯邦賴點卡繳綜所稅 加碼回饋0.2％ 早鳥再加100元】",
+      "content": "聯邦卡持卡人於2021年5月1日至6月2日期間，使用「聯邦賴點卡」繳納綜所稅1次付清且完成登錄，並於6月新增一般消費滿3000元，就可獲得0.2%刷卡金回饋，最高回饋500元。"
+    },
+    {
+      "title": "【刷卡樂分期／帳單分期」優惠利率通知】",
+      "content": "110/4/1～6/30您的專屬分期利率每期0.8%（年利率9.6%等同總費用年百分率）單筆或帳單新增消費滿NT$3,000，享3、6、12、18、24期分期還款，登入網銀申辦或來電申辦專線(02)2383-1000。"
+    },
+    {
+      "title": "【循環信用優惠利率通知】",
+      "content": "感謝您的支持與愛護，即日起～110/06結帳日止，提供您專屬優惠循環利率（詳見循環年利率欄位），方便您資金規劃與運用。若您有繳款延遲或其他違反信用卡約定條款之情形，本行得依約調整您的循環利率。優惠期間截止將再通知您適用之利率。"
+    }
+  ],
+  "ConsumptionListTitle": [
+    {
+      "title": "消費日"
+    },
+    {
+      "title": "入帳起息日"
+    },
+    {
+      "title": "交易說明"
+    },
+    {
+      "title": "新臺幣金額"
+    },
+    {
+      "title": "卡號後四碼"
+    },
+    {
+      "title": "消費國家"
+    },
+    {
+      "title": "幣別"
+    },
+    {
+      "title": "外幣金額"
+    },
+    {
+      "title": "折算日"
+    }
+  ],
+  "ConsumptionListInfo": [
+    {
+      "day": "",
+      "start": "",
+      "text": "上期帳單總額",
+      "twd": "2000",
+      "number": "1234",
+      "country": "TW",
+      "currency": "TWD",
+      "fcd": "",
+      "convert": "",
+      "block": true
+    },
+    {
+      "day": "05/07",
+      "start": "05/08",
+      "text": "統一行動條碼繳款",
+      "twd": "-2000",
+      "number": "1234",
+      "country": "TW",
+      "currency": "TWD",
+      "fcd": "",
+      "convert": "",
+      "block": true
+    },
+    {
+      "day": "",
+      "start": "",
+      "text": "",
+      "twd": "",
+      "number": "",
+      "country": "",
+      "currency": "",
+      "fcd": "繳款小記",
+      "convert": "-2000",
+      "block": false
+    },
+    {
+      "day": "05/22",
+      "start": "05/23",
+      "text": "東南旅行社",
+      "twd": "6800",
+      "number": "1234",
+      "country": "TW",
+      "currency": "TWD",
+      "fcd": "",
+      "convert": "",
+      "block": true
+    },
+    {
+      "day": "05/22",
+      "start": "05/23",
+      "text": "Mahalo加州廚房",
+      "twd": "1178",
+      "number": "1234",
+      "country": "TW",
+      "currency": "TWD",
+      "fcd": "",
+      "convert": "",
+      "block": true
+    },
+    {
+      "day": "05/22",
+      "start": "05/23",
+      "text": "好市多高雄店",
+      "twd": "1000",
+      "number": "1234",
+      "country": "TW",
+      "currency": "TWD",
+      "fcd": "",
+      "convert": "",
+      "block": true
+    },
+    {
+      "day": "05/23",
+      "start": "05/24",
+      "text": "全國加油站九如站",
+      "twd": "100",
+      "number": "1234",
+      "country": "TW",
+      "currency": "TWD",
+      "fcd": "",
+      "convert": "",
+      "block": true
+    },
+    {
+      "day": "05/23",
+      "start": "05/27",
+      "text": "WorldGym",
+      "twd": "988",
+      "number": "1234",
+      "country": "TW",
+      "currency": "TWD",
+      "fcd": "",
+      "convert": "",
+      "block": true
+    },
+    {
+      "day": "05/23",
+      "start": "05/24",
+      "text": "全國加油站九如站",
+      "twd": "100",
+      "number": "1234",
+      "country": "TW",
+      "currency": "TWD",
+      "fcd": "",
+      "convert": "",
+      "block": true
+    }
+  ],
+  "billInfo": [
+    {
+      "title": "幣別",
+      "content": "新台幣TWD"
+    },
+    {
+      "title": "上期帳單總額",
+      "content": "2000"
+    },
+    {
+      "title": "繳款金額",
+      "content": "10166"
+    },
+    {
+      "title": "本期帳款",
+      "content": "10166"
+    },
+    {
+      "title": "分期預借金額",
+      "content": "0"
+    },
+    {
+      "title": "利息",
+      "content": "0"
+    },
+    {
+      "title": "本期應繳額度",
+      "content": "新台幣TWD"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 基本設定 */
+@layer base {
+  /* 所有td都會有border-2 border-black的css效果 */
+  td {
+    @apply border-2 border-black;
+  }
+  /* 所有li都會有border-b-2  border-belstarGray text-belstarGray的css效果 */
+  li {
+    @apply border-b-2 border-belstarGray text-belstarGray;
+  }
+}
+/*把重複使用到的css寫成component，需要使用到這個css時直接 class=table-td 就可以有效果*/
+@layer components {
+  .table-td {
+    @apply border-transparent border-t-0 border-l-0 border-r-0 border-b-0 font-normal text-sm text-black;
+  }
+
+  .table-title {
+    @apply border-transparent border-t-0 border-l-0 border-r-0 border-b-0 font-normal text-sm;
+  }
+
+  .table-wh {
+    @apply rounded-3xl border border-white bg-white
+  }
+
+  .text-title {
+    @apply text-xl font-bold mb-2
+  }
+
+  .table-display {
+    @apply flex justify-between;
+  }
+  .page {
+    @apply w-20cm mx-auto;
+  }
+  /* 在print情況下所設定的css */
+  @media print {
+    .break-inside {
+      page-break-inside: avoid;
+    }
+    .break-before {
+      page-break-before: always;
+    }
+    .break-after {
+      page-break-after: always;
+    }
+    .count-reset {
+      counter-reset: page 0;
+    }
+    .count-increment {
+      counter-increment: page;
+    }
+  }
+}
+
+@layer utilities {
+.w-960px{
+    width: 960px;
+  }
+.w-480px{
+    width: 480px;
+  }
+}
