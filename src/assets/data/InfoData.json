@@ -1,36 +1,35 @@
 {
-        "accountInfo": [
-          { "title": "帳務結帳日", "content": "109/05/27","amount":false},
-          { "title": "繳款截止日", "content": "109/06/15" ,"amount":false},
-          { "title": "上期應繳金額", "content": "4,900" ,"amount":false},
-          { "title": "已繳款金額", "content": "4,900","amount":false},
-          { "title": "前期餘額", "content": "0","amount":false },
-           { "title": "本期應繳金額", "content": "5,844","amount":false },
-           { "title": "本期應繳總金額", "content": "5,844" ,"amount":true},
-          { "title": "最低應繳金額", "content": "584" ,"amount":false}
-        ],
-        "credits": [
-          { "title": "信用額度", "content": "130,000" },
-          { "title": "國內預借現金額度", "content": "80,000" },
-          { "title": "國外預借現金額度", "content": "50,000" },
-          { "title": "循環信用利率", "content": "1.5%" }
-        ],
-        "points": [
-          { "title": "上期累積點數", "content": "20" },
-          { "title": "本期新增點數", "content": "12" },
-          { "title": "本期使用紅利", "content": "0" },
-          { "title": "本期結餘點數", "content": "32" }
-        ],
-        "simpleInfo":{
-          "postcode":"80764",
-          "address":"高雄市前鎮區民權二路6號6樓之2",
-          "addressee":"",
-          "send":"交寄日期:109/05/30"
-        },
-        "advertisingCard":{
-          "title":"【旅行就愛刷百星卡】",
-          "content":" 百星越航聯名卡飛不飛都有哩:109/7/1~12/31不出國也可享百星越航航空聯名卡「越飛越有哩」最優5元賺取一「亞洲萬里通」里數!指定消費另增加國內飯店、量販超市、便利商店、外送平台也同享優惠,詳官網。"
-        },
-        "message":"@CoGo卡通知:@CoGo卡不只網購,更懂生活!天天愛用銜口/circle Pay/Pa錢包/百星PPay、週六來點蝦米/mimi/CAhouse皆享最高6%,百大數位生活3%(含網購/歡唱/餐飲),一般消費1%。適用109/8/3~110/1/27結帳帳單,更多經典百星卡新權益詳官網。"
-        
-    }
+  "accountInfo": [
+    { "title": "帳務結帳日", "content": "109/05/27", "amount": false },
+    { "title": "繳款截止日", "content": "109/06/15", "amount": false },
+    { "title": "上期應繳金額", "content": "4,900", "amount": false },
+    { "title": "已繳款金額", "content": "4,900", "amount": false },
+    { "title": "前期餘額", "content": "0", "amount": false },
+    { "title": "本期應繳金額", "content": "5,844", "amount": false },
+    { "title": "本期應繳總金額", "content": "5,844", "amount": true },
+    { "title": "最低應繳金額", "content": "584", "amount": false }
+  ],
+  "credits": [
+    { "title": "信用額度", "content": "130,000" },
+    { "title": "國內預借現金額度", "content": "80,000" },
+    { "title": "國外預借現金額度", "content": "50,000" },
+    { "title": "循環信用利率", "content": "1.5%" }
+  ],
+  "points": [
+    { "title": "上期累積點數", "content": "20" },
+    { "title": "本期新增點數", "content": "12" },
+    { "title": "本期使用紅利", "content": "0" },
+    { "title": "本期結餘點數", "content": "32" }
+  ],
+  "simpleInfo": {
+    "postcode": "80764",
+    "address": "高雄市前鎮區民權二路6號6樓之2",
+    "addressee": "",
+    "send": "交寄日期:109/05/30"
+  },
+  "advertisingCard": {
+    "title": "【旅行就愛刷同源卡】",
+    "content": " 同源越航聯名卡飛不飛都有哩:109/7/1~12/31不出國也可享同源越航航空聯名卡「越飛越有哩」最優5元賺取一「亞洲萬里通」里數!指定消費另增加國內飯店、量販超市、便利商店、外送平台也同享優惠,詳官網。"
+  },
+  "message": "@CoGo卡通知:@CoGo卡不只網購,更懂生活!天天愛用銜口/circle Pay/Pa錢包/同源PPay、週六來點蝦米/mimi/CAhouse皆享最高6%,百大數位生活3%(含網購/歡唱/餐飲),一般消費1%。適用109/8/3~110/1/27結帳帳單,更多經典同源卡新權益詳官網。"
+}

@@ -2,7 +2,7 @@
   <a4-page class="break-inside break-after">
     <app-bar></app-bar>
     <p class="text-xs text-right  text-primary">
-      百星客服電話：(08)8508-8408
+      同源客服電話：(08)8508-8408
     </p>
     <div class="flex items-center">
       <simple-info :simpleInfo="info.simpleInfo"></simple-info>
@@ -51,7 +51,7 @@ export default {
     Points,
     Message,
     AdvertisingCard,
-    Staging
-  }
+    Staging,
+  },
 };
 </script>
