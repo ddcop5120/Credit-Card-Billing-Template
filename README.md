@@ -15,6 +15,6 @@ yarn serve
 ```
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Credit-Card-Billing-Template is free software and GPLv3 licensed. See the LICENSE file for details.
 
 
