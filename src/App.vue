@@ -1,24 +1,20 @@
 <template>
-  <div class="h-screen">
-    <info :info="infoData"></info>
-    <account-detail :accountDetail="accountDetailData"></account-detail>
+  <div class="h-screen grid place-items-center">
+    <TableDemo v-bind="tableDemoData" />
   </div>
 </template>
 
 <script>
-import Info from "@/views/Info.vue";
-import InfoData from "@/assets/data/InfoData.json";
-import AccountDetail from "@/views/AccountDetail.vue";
-import AccountDetailData from "@/assets/data/AccountDetailData.json";
+import tableDemoData from "@/assets/data/tableDemo.json";
+import TableDemo from "@/components/TableDemo.vue";
+
 export default {
   components: {
-    Info,
-    AccountDetail
+    TableDemo
   },
   data() {
     return {
-      infoData: InfoData,
-      accountDetailData: AccountDetailData
+      tableDemoData: tableDemoData
     };
   }
 };

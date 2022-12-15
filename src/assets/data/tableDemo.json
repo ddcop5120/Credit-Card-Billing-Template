@@ -1,0 +1,326 @@
+{
+  "expensesList": [
+    {
+      "transactionDate": "5/1",
+      "postingDate": "5/2",
+      "content": "CAhouse 網購家國際資訊股份有限公司",
+      "currency": "TWD",
+      "amount": 1728,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/1",
+      "postingDate": "5/2",
+      "content": "居安有限公司",
+      "currency": "TWD",
+      "amount": 290,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/1",
+      "postingDate": "5/2",
+      "content": "大北百貨有限公司",
+      "currency": "TWD",
+      "amount": 120,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/2",
+      "postingDate": "5/3",
+      "content": "大北百貨有限公司",
+      "currency": "TWD",
+      "amount": 39,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/2",
+      "postingDate": "5/3",
+      "content": "大北百貨有限公司",
+      "currency": "TWD",
+      "amount": 321,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "阿勾搭旅遊股份有限公司",
+      "currency": "TWD",
+      "amount": 1680,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "abc- 係本茲股份有限公司",
+      "currency": "TWD",
+      "amount": 399,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "hifilx 影音串流-奈芙莉絲影音科技公司",
+      "currency": "TWD",
+      "amount": 569,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "abc- 係本茲股份有限公司",
+      "currency": "TWD",
+      "amount": 399,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "hifilx 影音串流-奈芙莉絲影音科技公司",
+      "currency": "TWD",
+      "amount": 569,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "阿勾搭旅遊股份有限公司",
+      "currency": "TWD",
+      "amount": 1680,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "abc- 係本茲股份有限公司",
+      "currency": "TWD",
+      "amount": 399,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "hifilx 影音串流-奈芙莉絲影音科技公司",
+      "currency": "TWD",
+      "amount": 569,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "abc- 係本茲股份有限公司",
+      "currency": "TWD",
+      "amount": 399,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "hifilx 影音串流-奈芙莉絲影音科技公司",
+      "currency": "TWD",
+      "amount": 569,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "阿勾搭旅遊股份有限公司",
+      "currency": "TWD",
+      "amount": 1680,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "阿勾搭旅遊股份有限公司",
+      "currency": "TWD",
+      "amount": 1680,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "阿勾搭旅遊股份有限公司",
+      "currency": "TWD",
+      "amount": 1680,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "阿勾搭旅遊股份有限公司",
+      "currency": "TWD",
+      "amount": 1680,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "阿勾搭旅遊股份有限公司",
+      "currency": "TWD",
+      "amount": 1680,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "阿勾搭旅遊股份有限公司",
+      "currency": "TWD",
+      "amount": 1680,
+      "calculate": "plus"
+    },
+
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "abc- 係本茲股份有限公司",
+      "currency": "TWD",
+      "amount": 399,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "hifilx 影音串流-奈芙莉絲影音科技公司",
+      "currency": "TWD",
+      "amount": 569,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "abc- 係本茲股份有限公司",
+      "currency": "TWD",
+      "amount": 399,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "hifilx 影音串流-奈芙莉絲影音科技公司",
+      "currency": "TWD",
+      "amount": 569,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "阿勾搭旅遊股份有限公司",
+      "currency": "TWD",
+      "amount": 1680,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "abc- 係本茲股份有限公司",
+      "currency": "TWD",
+      "amount": 399,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "hifilx 影音串流-奈芙莉絲影音科技公司",
+      "currency": "TWD",
+      "amount": 569,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "abc- 係本茲股份有限公司",
+      "currency": "TWD",
+      "amount": 399,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "hifilx 影音串流-奈芙莉絲影音科技公司",
+      "currency": "TWD",
+      "amount": 569,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "阿勾搭旅遊股份有限公司",
+      "currency": "TWD",
+      "amount": 1680,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "abc- 係本茲股份有限公司",
+      "currency": "TWD",
+      "amount": 399,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "hifilx 影音串流-奈芙莉絲影音科技公司",
+      "currency": "TWD",
+      "amount": 569,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "abc- 係本茲股份有限公司",
+      "currency": "TWD",
+      "amount": 399,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/6",
+      "postingDate": "5/7",
+      "content": "hifilx 影音串流-奈芙莉絲影音科技公司",
+      "currency": "TWD",
+      "amount": 569,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/1",
+      "postingDate": "5/2",
+      "content": "CAhouse 網購家國際資訊股份有限公司",
+      "currency": "TWD",
+      "amount": 1728,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/1",
+      "postingDate": "5/2",
+      "content": "居安有限公司",
+      "currency": "TWD",
+      "amount": 290,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/1",
+      "postingDate": "5/2",
+      "content": "大北百貨有限公司",
+      "currency": "TWD",
+      "amount": 120,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/2",
+      "postingDate": "5/3",
+      "content": "大北百貨有限公司",
+      "currency": "TWD",
+      "amount": 39,
+      "calculate": "plus"
+    },
+    {
+      "transactionDate": "5/2",
+      "postingDate": "5/3",
+      "content": "大北百貨有限公司",
+      "currency": "TWD",
+      "amount": 321,
+      "calculate": "plus"
+    }
+  ],
+  "detailsTitle": ["簽賬日", "入帳日", "交易項目", "幣別", "台幣金額"]
+}
