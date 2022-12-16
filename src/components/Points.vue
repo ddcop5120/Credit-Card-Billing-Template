@@ -1,5 +1,5 @@
 <template>
-  <table class="table-fixed w-full">
+  <table class="table-fixed w-full" style="height: max-content">
     <caption class="table-caption">
       紅利點數
     </caption>

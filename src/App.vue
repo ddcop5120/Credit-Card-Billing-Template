@@ -1,20 +1,30 @@
 <template>
-  <div class="h-screen grid place-items-center">
-    <TableDemo v-bind="tableDemoData" />
+  <div>
+    <info :info="InfoData"></info>
+    <account-detail :accountDetail="AccountDetailData"></account-detail>
+    <DashBoard :info="InfoData" />
   </div>
 </template>
 
 <script>
 import tableDemoData from "@/assets/data/tableDemo.json";
-import TableDemo from "@/components/TableDemo.vue";
+import DashBoard from "@/components/DashBoard.vue";
+import Info from "@/views/Info.vue";
+import InfoData from "@/assets/data/InfoData.json";
+import AccountDetail from "@/views/AccountDetail.vue";
+import AccountDetailData from "@/assets/data/AccountDetailData.json";
 
 export default {
   components: {
-    TableDemo
+    Info,
+    AccountDetail,
+    DashBoard
   },
   data() {
     return {
-      tableDemoData: tableDemoData
+      tableDemoData,
+      InfoData,
+      AccountDetailData
     };
   }
 };
