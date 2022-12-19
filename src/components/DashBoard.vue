@@ -22,14 +22,22 @@
           >
             交易紀錄
           </button>
+          <button
+            class="w-[100px] py-1 rounded-t bg-white inline-block"
+            :class="{ 'bg-gray-400': tab !== 3 }"
+            @click="setTab(3)"
+          >
+            自動扣款
+          </button>
         </div>
       </div>
-      <div class="h-[90%] flex justify-center pt-4">
+      <div class="h-[90%] flex justify-center">
         <BillBoard v-show="tab === 1" :info="InfoData" />
         <div v-show="tab === 2" class="w-[96%] mx-auto">
-          <div>5 月交易紀錄</div>
+          <div class="text-sm text-title">5 月交易紀錄</div>
           <TableDemo v-bind="tableDemoData" />
         </div>
+        <PayBill v-show="tab === 3" />
       </div>
     </div>
   </div>
@@ -40,11 +48,13 @@ import TableDemo from "@/components/TableDemo.vue";
 import tableDemoData from "@/assets/data/tableDemo.json";
 import InfoData from "@/assets/data/InfoData.json";
 import BillBoard from "@/components/BillBoard.vue";
+import PayBill from "@/components/PayBill.vue";
 
 export default {
   components: {
     TableDemo,
-    BillBoard
+    BillBoard,
+    PayBill
   },
   data() {
     return {

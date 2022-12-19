@@ -8,12 +8,16 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "apexcharts": "^3.36.3",
     "autoprefixer": "^9.8.6",
+    "chart.js": "^4.1.0",
     "core-js": "^3.8.1",
     "postcss": "^7.0.35",
     "replace-in-file-webpack-plugin": "^1.0.6",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-apexcharts": "^1.6.2",
+    "vue-chartjs": "^5.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.0",

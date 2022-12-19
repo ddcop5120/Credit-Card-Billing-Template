@@ -1,10 +1,10 @@
 <template>
   <table class="table-fixed w-full text-xs">
-    <caption class="table-caption">
+    <caption class="table-caption text-xs">
       信用額度
     </caption>
     <tr v-for="(item, index) in credits" :key="index">
-      <td class="table-td table-display">
+      <td class="table-td table-display text-xs">
         <span>{{ item.title }}</span>
         <span>{{ item.content }}</span>
       </td>

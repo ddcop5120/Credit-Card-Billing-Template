@@ -1,5 +1,5 @@
 <template>
-  <table class="w-full">
+  <table class="w-full mt-4">
     <thead>
       <tr>
         <th
@@ -27,22 +27,69 @@
     <tfoot>
       <td class="table-td"></td>
       <td class="table-td"></td>
-      <td class="table-td"></td>
-      <td class="table-td"></td>
-      <td class="table-td">
-        <div class="flex justify-between items-center">
+      <td class="table-td" colspan="3">
+        <div class="flex items-center justify-end">
           <button
             class="py-1 px-2 border rounded hover:border-gray-800"
+            @click="currentPage = 1"
+          >
+            &#60;&#60;
+          </button>
+          <button
+            class="mx-1 py-1 px-2 border rounded hover:border-gray-800"
             @click="prevPageHandler"
           >
-            Prev
+            &#60;
           </button>
-          <div>{{ currentPage }} / {{ totalPages }}</div>
+          <div class="mx-1 flex">
+            <div v-show="currentPage >= paginationMid">
+              <button
+                class="mx-1 py-1 px-2 border rounded hover:border-gray-800"
+                @click="currentPage = 1"
+              >
+                1
+              </button>
+              ...
+            </div>
+            <div
+              :key="index"
+              v-for="index in totalPages"
+              v-show="
+                index === currentPage ||
+                index === currentPage + 1 ||
+                index === currentPage - 1
+              "
+            >
+              <button
+                class="mx-1 py-1 px-2 border rounded hover:border-gray-800"
+                :class="{ 'bg-gray-600 text-white': index === currentPage }"
+                @click="currentPage = index"
+              >
+                {{ index }}
+              </button>
+            </div>
+
+            <div v-show="currentPage <= paginationMid">
+              ...
+              <button
+                class="mx-1 py-1 px-2 border rounded hover:border-gray-800"
+                @click="currentPage = totalPages"
+              >
+                {{ totalPages }}
+              </button>
+            </div>
+          </div>
           <button
-            class="py-1 px-2 border rounded hover:border-gray-800"
+            class="mx-1 py-1 px-2 border rounded hover:border-gray-800"
             @click="nextPageHandler"
           >
-            Next
+            &#62;
+          </button>
+          <button
+            class="py-1 px-2 border rounded hover:border-gray-800"
+            @click="currentPage = totalPages"
+          >
+            &#62;&#62;
           </button>
         </div>
       </td>
@@ -56,7 +103,7 @@ export default {
     return {
       currentPage: 1,
       totalPages: 1,
-      defaultLength: 10
+      defaultLength: 15
     };
   },
   computed: {
@@ -65,6 +112,9 @@ export default {
         (this.currentPage - 1) * this.defaultLength,
         (this.currentPage - 1) * this.defaultLength + this.defaultLength
       );
+    },
+    paginationMid() {
+      return Math.floor(this.totalPages / 2) + 1;
     }
   },
 
