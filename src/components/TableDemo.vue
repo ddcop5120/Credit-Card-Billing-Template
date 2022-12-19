@@ -1,5 +1,5 @@
 <template>
-  <table class="w-full mt-4">
+  <table class="w-full">
     <thead>
       <tr>
         <th

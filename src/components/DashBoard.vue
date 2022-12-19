@@ -34,7 +34,7 @@
       <div class="h-[90%] flex justify-center">
         <BillBoard v-show="tab === 1" :info="InfoData" />
         <div v-show="tab === 2" class="w-[96%] mx-auto">
-          <div class="text-sm text-title">5 月交易紀錄</div>
+          <div class="text-sm text-title pt-4">5 月交易紀錄</div>
           <TableDemo v-bind="tableDemoData" />
         </div>
         <PayBill v-show="tab === 3" />

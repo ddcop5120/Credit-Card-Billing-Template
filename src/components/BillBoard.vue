@@ -1,5 +1,5 @@
 <template>
-  <div class="w-11/12 mx-auto pt-4">
+  <div class="w-11/12 mx-auto">
     <app-bar></app-bar>
     <p class="text-xs text-right text-primary">同源客服電話：(08)8508-8408</p>
     <div class="flex items-center">
