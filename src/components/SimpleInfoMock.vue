@@ -1,6 +1,24 @@
 <template>
   <div class="w-full text-title p-4">
     <section class="text-sm">
+      <div class="">
+        <div class="overflow-hidden mr-2" style="width: 100px">
+          <img
+            width="200"
+            style="max-width: none"
+            src="@/assets/img/address-code39.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <span class="text-xs">繳款代碼：BF4991230000</span>
+        </div>
+
+        <div class="overflow-hidden" style="width 150px">
+          <img width="200" src="@/assets/img/address-code39.png" alt="" />
+          <span class="text-xs">應繳金額：＄5844</span>
+        </div>
+      </div>
       <div class="flex justify-between">
         <h3 class="font-bold">
           下期帳單累計金額

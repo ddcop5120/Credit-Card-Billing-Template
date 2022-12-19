@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen h-screen bg-green-900 grid place-items-center">
+  <div class="w-screen h-screen bg-blue-900 grid place-items-center">
     <div class="w-[1024px] h-[650px] bg-white rounded-md overflow-hidden">
       <div class="h-[10%] flex flex-col">
         <div class="bg-black flex h-6 items-center flex-none">
@@ -34,7 +34,7 @@
       <div class="h-[90%] flex justify-center">
         <BillBoard v-show="tab === 1" :info="InfoData" />
         <div v-show="tab === 2" class="w-[96%] mx-auto">
-          <div class="text-sm text-title pt-4">5 月交易紀錄</div>
+          <div class="text-lg pt-4 font-bold">5 月交易紀錄</div>
           <TableDemo v-bind="tableDemoData" />
         </div>
         <PayBill v-show="tab === 3" />

@@ -42,40 +42,13 @@
             &#60;
           </button>
           <div class="mx-1 flex">
-            <div v-show="currentPage >= paginationMid">
-              <button
-                class="mx-1 py-1 px-2 border rounded hover:border-gray-800"
-                @click="currentPage = 1"
-              >
-                1
-              </button>
-              ...
-            </div>
-            <div
-              :key="index"
-              v-for="index in totalPages"
-              v-show="
-                index === currentPage ||
-                index === currentPage + 1 ||
-                index === currentPage - 1
-              "
-            >
+            <div :key="index" v-for="index in totalPages">
               <button
                 class="mx-1 py-1 px-2 border rounded hover:border-gray-800"
                 :class="{ 'bg-gray-600 text-white': index === currentPage }"
                 @click="currentPage = index"
               >
                 {{ index }}
-              </button>
-            </div>
-
-            <div v-show="currentPage <= paginationMid">
-              ...
-              <button
-                class="mx-1 py-1 px-2 border rounded hover:border-gray-800"
-                @click="currentPage = totalPages"
-              >
-                {{ totalPages }}
               </button>
             </div>
           </div>
@@ -112,9 +85,6 @@ export default {
         (this.currentPage - 1) * this.defaultLength,
         (this.currentPage - 1) * this.defaultLength + this.defaultLength
       );
-    },
-    paginationMid() {
-      return Math.floor(this.totalPages / 2) + 1;
     }
   },
 

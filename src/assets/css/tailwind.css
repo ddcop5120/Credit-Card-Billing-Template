@@ -8,9 +8,9 @@
 @layer base {
   /* 自定義字型設定 */
   @font-face {
-    font-family:'EUDC';
+    font-family: 'EUDC';
     src: url('/fonts/EUDC.ttf');
-    unicode-range: U+U+E000-F8FF;
+    unicode-range: U+U + E000-F8FF;
   }
   /* 所有td都會有border-2 border-black的css效果 */
   td {
@@ -54,3 +54,8 @@
     }
   }
 }
+
+/* body {
+  display: flex;
+  justify-content: center;
+} */

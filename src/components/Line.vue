@@ -1,6 +1,6 @@
  <template>
   <div>
-    <div class="text-xs text-title px-4">2021/05 ~ 2021/11 消費分析</div>
+    <div class="text-xs text-title px-4">2021/01 ~ 2021/05 消費分析</div>
     <apexchart
       width="400"
       height="120"
@@ -31,11 +31,8 @@ export default {
           }
         },
         xaxis: {
-          categories: [6, 7, 8, 9, 10, 11]
+          categories: [1, 2, 3, 4, 5, 6]
         }
-        // yaxis: {
-        //   show: false
-        // }
       },
       series: [
         {
