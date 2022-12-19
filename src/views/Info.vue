@@ -4,22 +4,20 @@
     <p class="text-xs text-right text-primary">同源客服電話：(08)8508-8408</p>
     <div class="flex items-center">
       <simple-info :simpleInfo="info.simpleInfo"></simple-info>
-      <credits :credits="info.credits"></credits>
+      <LineChart />
     </div>
-    <div class="flex w-full">
+    <div class="flex w-full mb-1">
       <section class="w-1/2">
         <account-info
           :infoTitles="info.accountInfo"
           class="my-1"
         ></account-info>
-        <staging></staging>
-        <points :points="info.points"></points>
-        <message class="my-1" :message="info.message"></message>
+        <staging class="mt-4"></staging>
       </section>
       <div class="w-1/2 pl-1">
-        <img src="@/assets/img/delivery.jpg" class="my-1 border border-black" />
-        <img src="@/assets/img/festival.jpg" class="my-1 border border-black" />
-        <img src="@/assets/img/giveBack.jpg" class="my-1 border border-black" />
+        <credits class="my-1" :credits="info.credits"></credits>
+        <points class="my-1" :points="info.points"></points>
+        <message class="my-1" :message="info.message"></message>
       </div>
     </div>
     <detail
@@ -37,9 +35,10 @@ import Points from "@/components/Points.vue";
 import Message from "@/components/Message.vue";
 import Staging from "@/components/Staging.vue";
 import Detail from "../components/Detail.vue";
+import LineChart from "@/components/Line.vue";
+
 export default {
   props: ["info", "accountDetail"],
-
   components: {
     AppBar,
     AccountInfo,
@@ -48,7 +47,8 @@ export default {
     Points,
     Message,
     Staging,
-    Detail
+    Detail,
+    LineChart
   }
 };
 </script>
