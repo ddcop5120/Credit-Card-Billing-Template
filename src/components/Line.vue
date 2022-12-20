@@ -2,7 +2,7 @@
   <div>
     <div class="text-xs text-title px-4">2021/01 ~ 2021/05 消費分析</div>
     <apexchart
-      width="400"
+      width="380"
       height="120"
       type="line"
       :options="options"
@@ -28,7 +28,9 @@ export default {
       options: {
         grid: {
           padding: {
-            top: 0
+            top: 0,
+            left: 20,
+            right: 20
           }
         },
         stroke: {

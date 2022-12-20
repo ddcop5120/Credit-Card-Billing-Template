@@ -2,7 +2,7 @@
   <a4-page class="break-inside break-after h-full">
     <info :info="InfoData" :accountDetail="AccountDetailData"></info>
     <account-detail :accountDetail="AccountDetailData"></account-detail>
-    <bill :bill="billData" class="absolute bottom-0"></bill>
+    <bill :bill="billData" class="absolute bottom-0 left-0"></bill>
   </a4-page>
 </template>
 

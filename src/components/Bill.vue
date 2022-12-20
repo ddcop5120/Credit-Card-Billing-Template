@@ -1,16 +1,21 @@
 <template>
   <div
-    class="flex  items-center border-t  border-dashed break-inside  py-1 break-inside border-black"
+    class="
+      flex
+      items-center
+      border-t border-dashed
+      break-inside
+      py-1
+      break-inside
+      border-black
+      px-1
+    "
   >
-    <div
-      class="flex text-xs flex-col border-r  border-dashed mx-1 border-black"
-    >
+    <div class="flex text-xs flex-col border-r border-dashed mx-1 border-black">
       <!-- barcode -->
-      <div class="flex items-center text-xs  justify-around">
+      <div class="flex items-center text-xs justify-around">
         <span>
-          <p class=" break-words ml-2">
-            便利商店使用(繳交上限為2萬元)
-          </p>
+          <p class="break-words ml-2">便利商店使用(繳交上限為2萬元)</p>
           <img
             width="100"
             v-for="(url, index) in bill.paymentBarcode"
@@ -48,7 +53,7 @@
             </td>
             <td rowspan="3" class="mx-auto text-center">
               收訖戳記
-              <div class="rounded-full h-16 w-16 border-2 mx-auto "></div>
+              <div class="rounded-full h-16 w-16 border-2 mx-auto"></div>
             </td>
           </tr>
           <tr>
@@ -79,7 +84,7 @@
           </tr>
         </table>
 
-        <div rowspan="5" class=" ml-1 w-8 justify-between flex flex-col ">
+        <div rowspan="5" class="ml-1 w-8 justify-between flex flex-col">
           <p v-for="(i, index) in items" :key="index">{{ i }}</p>
         </div>
       </div>
@@ -106,7 +111,14 @@
         <tr>
           <td v-for="(unit, index) in bill.user.money" :key="index">
             <p
-              class="border-b-2 items-center justify-center flex h-6 border-black"
+              class="
+                border-b-2
+                items-center
+                justify-center
+                flex
+                h-6
+                border-black
+              "
             >
               {{ unit.unit }}
             </p>
@@ -152,8 +164,8 @@ export default {
   props: ["bill"],
   data() {
     return {
-      items: ["主管", "會計", "覆核", "記帳", "製票"],
+      items: ["主管", "會計", "覆核", "記帳", "製票"]
     };
-  },
+  }
 };
 </script>
