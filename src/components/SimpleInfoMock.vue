@@ -2,6 +2,7 @@
   <div class="w-full text-title p-4">
     <section class="text-sm">
       <div class="">
+        親愛的客戶 ：
         <div class="overflow-hidden mr-2" style="width: 100px">
           <img
             width="200"

@@ -1,7 +1,8 @@
 <template>
-  <a4-page class="break-inside break-after">
+  <a4-page class="break-inside break-after h-full">
     <info :info="InfoData" :accountDetail="AccountDetailData"></info>
     <account-detail :accountDetail="AccountDetailData"></account-detail>
+    <bill :bill="billData" class="absolute bottom-0"></bill>
   </a4-page>
 </template>
 
@@ -12,12 +13,15 @@ import Info from "@/views/Info.vue";
 import InfoData from "@/assets/data/InfoData.json";
 import AccountDetail from "@/views/AccountDetail.vue";
 import AccountDetailData from "@/assets/data/tableDemo.json";
+import Bill from "@/components/Bill.vue";
+import BillData from "@/assets/data/BillData.json";
 
 export default {
   components: {
     Info,
     AccountDetail,
-    A4Page
+    A4Page,
+    Bill
   },
   data() {
     return {
@@ -25,7 +29,8 @@ export default {
       InfoData,
       AccountDetailData,
       pagedScript: undefined,
-      hookScript: undefined
+      hookScript: undefined,
+      billData: BillData
     };
   },
 
@@ -88,7 +93,9 @@ export default {
         document.head.appendChild(this.hookScript);
       },
       after: () => {
-        window.PagedPolyfill.preview();
+        setTimeout(() => {
+          window.PagedPolyfill.preview();
+        }, 1000);
       }
     };
   }

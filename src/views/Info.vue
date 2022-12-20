@@ -4,7 +4,7 @@
     <p class="text-xs text-right text-primary">同源客服電話：(08)8508-8408</p>
     <div class="flex items-center">
       <simple-info :simpleInfo="info.simpleInfo"></simple-info>
-      <LineChart />
+      <LineChart :dataLabels="true" :showYLabels="false" />
     </div>
     <div class="flex w-full mb-1">
       <section class="w-1/2">
