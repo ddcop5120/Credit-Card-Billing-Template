@@ -1,0 +1,24 @@
+@import "tailwindcss/base";
+@layer base {
+    .app {
+        counter-reset: normalPage 0;
+    }
+    .footer {
+        font-size: 15pt;
+        position: running(footer);
+    }
+    @font-face {
+        font-family: "EUDC";
+        src: url("../../fonts/EUDC.ttf");
+        unicode-range: U+U + E000-F8FF;
+    }
+    @page {
+        size: A4 portrait;
+        font-family: "EUDC";
+        font-size: 11pt;
+        --belstar-margin-top: 5mm;
+        --belstar-margin-bottom: 5mm;
+        --belstar-margin-left: 5mm;
+        --belstar-margin-right: 5mm;
+    }
+}

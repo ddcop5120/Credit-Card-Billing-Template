@@ -1,27 +1,22 @@
 <template>
   <div
-    class="
-      flex
-      items-center
-      border-t border-dashed
-      break-inside
-      py-1
-      break-inside
-      border-black
-      px-1
-    "
+    class="flex  items-center border-t  border-dashed break-inside  py-1 break-inside border-black"
   >
-    <div class="flex text-xs flex-col border-r border-dashed mx-1 border-black">
+    <div
+      class="flex text-xs flex-col border-r  border-dashed mx-1 border-black"
+    >
       <!-- barcode -->
-      <div class="flex items-center text-xs justify-around">
+      <div class="flex items-center text-xs  justify-around">
         <span>
-          <p class="break-words ml-2">便利商店使用(繳交上限為2萬元)</p>
+          <p class=" break-words ml-2">
+            便利商店使用(繳交上限為2萬元)
+          </p>
           <img
             width="100"
             v-for="(url, index) in bill.paymentBarcode"
             :key="index"
-            :src="url"
-            class="mt-1 h-8"
+            src="../assets/img/address-barcode.png"
+            class="mt-1 h-16 w-16"
           />
         </span>
         <div class="flex flex-col justify-end">
@@ -30,7 +25,11 @@
             <label>
               {{ paid.label }}
             </label>
-            <img :src="paid.imgUrl" width="100" class="h-8" />
+            <img
+              src="../assets/img/address-barcode.png"
+              width="100"
+              class="h-16 w-16"
+            />
           </span>
         </div>
       </div>
@@ -53,7 +52,7 @@
             </td>
             <td rowspan="3" class="mx-auto text-center">
               收訖戳記
-              <div class="rounded-full h-16 w-16 border-2 mx-auto"></div>
+              <div class="rounded-full h-16 w-16 border-2 mx-auto "></div>
             </td>
           </tr>
           <tr>
@@ -73,7 +72,7 @@
             <td>認證欄</td>
             <td colspan="4">
               <img
-                src="https://www.cognex.com/api/Sitecore/Barcode/Get?data=BEGIN%3AVCARD%0AN%3ASchwarzenegger%3BArnold%0AORG%3ACognex%0ATEL%3A%2B1%20855-426-4639%0AEMAIL%3Acontactus%40cognex.com%0AURL%3Ahttps%3A%2F%2Fwww.cognex.com%0AADR%3A%3B%3B1%20Vision%20Drive%3BNatick%3B%3B01760-2059%3BUnited%20States%0AEND%3AVCARD&code=Z_QR_CODE&width=300&imageType=JPG&foreColor=%23000000&backColor=%23FFFFFF&rotation=RotateNoneFlipNone"
+                src="../assets/img/address-barcode.png"
                 width="60"
                 class="float-right pt-2"
               />
@@ -84,15 +83,15 @@
           </tr>
         </table>
 
-        <div rowspan="5" class="ml-1 w-8 justify-between flex flex-col">
+        <div rowspan="5" class=" ml-1 w-8 justify-between flex flex-col ">
           <p v-for="(i, index) in items" :key="index">{{ i }}</p>
         </div>
       </div>
       <div class="flex justify-around">
         <img
-          :src="collection"
+          src="../assets/img/address-barcode.png"
           width="100"
-          class="mt-2 h-8"
+          class="mt-2 h-16 w-16"
           v-for="(collection, index) in bill.collectionBarcode"
           :key="index"
         />
@@ -111,14 +110,7 @@
         <tr>
           <td v-for="(unit, index) in bill.user.money" :key="index">
             <p
-              class="
-                border-b-2
-                items-center
-                justify-center
-                flex
-                h-6
-                border-black
-              "
+              class="border-b-2 items-center justify-center flex h-6 border-black"
             >
               {{ unit.unit }}
             </p>
@@ -161,7 +153,7 @@
 </template>
 <script>
 export default {
-  props: ["bill"],
+  props: { bill: Object },
   data() {
     return {
       items: ["主管", "會計", "覆核", "記帳", "製票"]

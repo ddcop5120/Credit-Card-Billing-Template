@@ -9,6 +9,6 @@
 </template>
 <script>
 export default {
-  props: ["advertisingCard"]
+  props: { advertisingCard: Object }
 };
 </script>

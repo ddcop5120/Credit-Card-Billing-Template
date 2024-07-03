@@ -17,7 +17,6 @@
 </template>
 <script>
 export default {
-  props: ["infoTitles"],
+  props: { infoTitles: Array }
 };
 </script>
-<style scoped></style>

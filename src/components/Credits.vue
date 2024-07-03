@@ -1,5 +1,5 @@
 <template>
-  <table class="table-fixed w-full text-xs">
+  <table class="table-fixed w-full">
     <caption class="table-caption">
       信用額度
     </caption>
@@ -13,6 +13,6 @@
 </template>
 <script>
 export default {
-  props: ["credits"]
+  props: { credits: Array }
 };
 </script>

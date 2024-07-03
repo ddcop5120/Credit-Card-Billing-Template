@@ -10,6 +10,6 @@
 </template>
 <script>
 export default {
-  props: ["info"]
+  props: { info: String }
 };
 </script>

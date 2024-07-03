@@ -9,15 +9,15 @@
           <br />
         </address>
         <p>{{ simpleInfo.addressee }}</p>
-        <img src="@/assets/img/address-code39.png" class="my-2" />
+        <img src="../assets/img/address-code39.png" class="my-2" />
       </div>
-      <img src="@/assets/img/address-barcode.png" class="h-16 my-3" />
+      <img src="../assets/img/address-barcode.png" class="h-16 my-3" />
     </section>
     <p class="w-full text-right text-xs pr-7">{{ simpleInfo.send }}</p>
   </div>
 </template>
 <script>
 export default {
-  props: ["simpleInfo"]
+  props: { simpleInfo: Object }
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <table class="table-fixed w-full" style="height: max-content">
+  <table class="table-fixed w-full">
     <caption class="table-caption">
       紅利點數
     </caption>
@@ -13,6 +13,6 @@
 </template>
 <script>
 export default {
-  props: ["points"]
+  props: { points: Array }
 };
 </script>

@@ -19,6 +19,6 @@
 </template>
 <script>
 export default {
-  props: ["terms"]
+  props: { terms: Array }
 };
 </script>
