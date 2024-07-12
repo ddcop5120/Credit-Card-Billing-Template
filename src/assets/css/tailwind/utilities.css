@@ -40,18 +40,6 @@
     .text-indent {
         text-indent: 1rem;
     }
-    .-text-indent_0_85 {
-        text-indent: -0.85rem;
-    }
-    .-text-indent_1_3 {
-        text-indent: -1.3rem;
-    }
-    .-text-indent_1_6 {
-        text-indent: -1.6rem;
-    }
-    .-text-indent_1_7 {
-        text-indent: -1.7rem;
-    }
     .text-justify-last {
         text-align: justify;
         text-align-last: left;
@@ -59,8 +47,39 @@
     td {
         @apply border-2 border-black;
     }
-    /* 所有li都會有border-b-2  border-belstarGray text-belstarGray的css效果 */
-    li {
-        @apply border-b-2 border-belstarGray text-belstarGray;
+    .vertical {
+        writing-mode: vertical-rl;
+    }
+    .bg-ruri {
+        --tw-bg-opacity: 1;
+        background-color: #3b82f6;
+    }
+    .text-primary {
+        --tw-text-opacity: 1;
+        color: #6da4d8;
+    }
+    .text-belstarRed {
+        --tw-text-opacity: 1;
+        color: #ff3860;
+    }
+    .text-belstarGray {
+        --tw-text-opacity: 1;
+        color: #6b7280;
+    }
+    .text-ruri {
+        --tw-text-opacity: 1;
+        color: #3b82f6;
+    }
+    .border-ruri {
+        --tw-border-opacity: 1;
+        border-color: #3b82f6;
+    }
+    .text-title {
+        --tw-text-opacity: 1;
+        color: #737A87;
+    }
+    .text-font {
+        --tw-text-opacity: 1;
+        color: #6B7280;
     }
 }

@@ -1,16 +1,13 @@
 @import "tailwindcss/components";
 @layer components {
     .table-caption {
-        @apply bg-ruri text-white font-normal text-base px-2 py-2 text-left rounded-md;
+        @apply bg-[#3b82f6] text-white font-normal text-base px-2 py-2 text-left rounded-md;
     }
     .table-td {
-        @apply border-belstarGray text-belstarGray border-t-0 border-l-0 border-r-0 py-1 font-light border-b text-sm px-1;
+        @apply border-[#6b7280] text-[#6b7280] border-t-0 border-l-0 border-r-0 py-1 font-light border-b text-sm px-1;
     }
     .table-display {
         @apply flex justify-between;
-    }
-    .page {
-        @apply w-20cm mx-auto;
     }
     /* 在print情況下所設定的css */
     @media print {

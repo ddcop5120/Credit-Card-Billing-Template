@@ -58,7 +58,7 @@
           <tr>
             <td>金額大寫</td>
             <td colspan="4">
-              <ul class="text-dispersion">
+              <ul class="text-justify">
                 <span>新臺幣：</span>
                 <span v-for="(unit, index) in bill.user.money" :key="index">
                   <span class="font-bold"> {{ unit.value }}</span>
